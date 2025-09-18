@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Guia Essencial do Imparfait</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #141414;
+            color: #e5e5e5;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .highlight-red {
+            background-color: rgba(229, 9, 20, 0.15);
+            color: #ff535d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .highlight-green {
+            background-color: rgba(6, 128, 67, 0.15);
+            color: #a7f3d0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .highlight-blue {
+            background-color: rgba(0, 100, 255, 0.15);
+            color: #87ceeb;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .table-custom {
+            border-collapse: collapse;
+        }
+        .table-custom th, .table-custom td {
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: left;
+        }
+        .table-custom th {
+            background-color: #2a2a2a;
+            color: #E50914;
+        }
+        .table-custom tr:nth-child(even) {
+            background-color: #1c1c1c;
+        }
+        .table-custom tr:hover {
+            background-color: #222;
+        }
+        .input-text {
+            color: #141414;
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: none;
+            width: 100%;
+            margin-top: 4px;
+            transition: all 0.2s ease;
+        }
+        .input-text:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px #E50914;
+        }
+        .button {
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-[#141414] text-gray-200">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center my-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-2">Compreendendo o <span class="text-[#E50914]">*Imparfait*</span></h1>
+            <p class="text-lg text-gray-400">O tempo verbal da descrição e dos hábitos no passado em francês</p>
+        </header>
+
+        <div class="bg-[#1c1c1c] rounded-xl shadow-2xl p-6 md:p-8">
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">O que é o *Imparfait*?</h2>
+            <p class="mb-4">
+                O *Imparfait de l'Indicatif* é um tempo verbal do passado usado para descrever o que <strong class="text-white">costumava acontecer</strong>, o que estava acontecendo, ou para descrever pessoas e lugares no passado.
+            </p>
+            <p class="mb-6">
+                Pense nele como o nosso <strong class="text-white">"pretérito imperfeito"</strong> em português (eu falava, eles corriam). Diferente do *Passé Composé*, que foca em ações completas, o *Imparfait* foca em:
+            </p>
+            <ul class="list-disc list-inside space-y-2 mb-6 ml-4">
+                <li>
+                    <strong class="text-white">Hábitos</strong> ou ações repetidas no passado.
+                </li>
+                <li>
+                    <strong class="text-white">Descrições</strong> de estados, sentimentos, pessoas ou o clima.
+                </li>
+                <li>
+                    Ações de <strong class="text-white">fundo</strong>, que servem de cenário para outra ação.
+                </li>
+            </ul>
+
+            <div class="bg-gray-800 p-6 rounded-lg mb-8">
+                <p class="text-lg mb-2"><strong>Exemplo de Hábito:</strong></p>
+                <p class="text-xl font-bold text-white mb-4">Quand j'étais jeune, je jouais au foot.</p>
+                <p class="text-gray-400">Quando eu era jovem, eu jogava futebol.</p>
+                <p class="text-lg mt-4 mb-2"><strong>Exemplo de Descrição:</strong></p>
+                <p class="text-xl font-bold text-white mb-4">Il faisait beau et le ciel était bleu.</p>
+                <p class="text-gray-400">O tempo estava bonito e o céu era azul.</p>
+                <p class="text-lg mt-4 mb-2"><strong>Exemplo de Ação de Fundo:</strong></p>
+                <p class="text-xl font-bold text-white mb-4">Je regardais un film quand le téléphone a sonné.</p>
+                <p class="text-gray-400">Eu estava assistindo a um filme quando o telefone tocou.</p>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Conjugação no *Imparfait*</h2>
+            <p class="mb-4">
+                A conjugação do *Imparfait* é bastante regular. A regra geral é:
+            </p>
+            <ul class="list-disc list-inside space-y-2 mb-6 ml-4">
+                <li>Pegue o verbo na primeira pessoa do plural do presente (<strong class="text-white">nous</strong>).</li>
+                <li>Retire a terminação <strong class="text-white">-ons</strong>.</li>
+                <li>Adicione as terminações do *Imparfait*: <span class="highlight-green">-ais, -ais, -ait, -ions, -iez, -aient</span>.</li>
+            </ul>
+            <p class="text-lg text-center font-semibold mb-6">
+                A única exceção notável é o verbo <strong class="text-white">être</strong>.
+            </p>
+
+            ---
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Dica de Pronúncia</h2>
+            <p class="mb-4">
+                Em todas as terminações do *Imparfait*, o som final é o mesmo: <span class="highlight-red">"-ais", "-ait", "-aient"</span> são pronunciados como um único som <strong class="text-white">"è"</strong>. As terminações <span class="highlight-red">"-ions" e "-iez"</span> são pronunciadas com o som <strong class="text-white">"i"</strong>.
+            </p>
+            <p class="mb-6">
+                É isso mesmo! É tudo sobre o som, não sobre a escrita. 
+            </p>
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Tabela de Conjugação com Pronúncia</h2>
+            <p class="mb-4">
+                Veja como a regra se aplica a um verbo regular (*parler*) e ao verbo irregular (*être*).
+            </p>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Verbo *Parler*</th>
+                            <th class="w-1/4">Verbo *Être*</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Tradução</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">parlais</span></td>
+                            <td><span class="highlight-green">étais</span></td>
+                            <td><span class="highlight-blue">/parlè/ /etè/</span></td>
+                            <td>Eu falava / Eu era</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">parlais</span></td>
+                            <td><span class="highlight-green">étais</span></td>
+                            <td><span class="highlight-blue">/parlè/ /etè/</span></td>
+                            <td>Tu falavas / Tu eras</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">parlait</span></td>
+                            <td><span class="highlight-green">était</span></td>
+                            <td><span class="highlight-blue">/parlè/ /etè/</span></td>
+                            <td>Ele/Ela falava / Ele/Ela era</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">parlions</span></td>
+                            <td><span class="highlight-green">étions</span></td>
+                            <td><span class="highlight-blue">/parliõ/ /etiõ/</span></td>
+                            <td>Nós falávamos / Nós éramos</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">parliez</span></td>
+                            <td><span class="highlight-green">étiez</span></td>
+                            <td><span class="highlight-blue">/parlié/ /etié/</span></td>
+                            <td>Vocês falavam / Vocês eram</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">parlaient</span></td>
+                            <td><span class="highlight-green">étaient</span></td>
+                            <td><span class="highlight-blue">/parlè/ /etè/</span></td>
+                            <td>Eles/Elas falavam / Eles/Elas eram</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+            
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Comparando o *Imparfait* e o *Passé Composé*</h2>
+            <p class="mb-4">
+                Essa é uma das maiores dificuldades. Veja a diferença na prática.
+            </p>
+            <div class="overflow-x-auto rounded-lg shadow-xl">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/2">Situação</th>
+                            <th class="w-1/2">Exemplo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong class="text-white">Descrição (Imparfait)</strong></td>
+                            <td><span class="highlight-green">Il <strong class="text-white">faisait</strong> froid.</span> (Estava frio.)</td>
+                        </tr>
+                        <tr>
+                            <td><strong class="text-white">Ação Pontual (Passé Composé)</strong></td>
+                            <td><span class="highlight-green">Il <strong class="text-white">a fait</strong> une blague.</span> (Ele fez uma piada.)</td>
+                        </tr>
+                        <tr>
+                            <td><strong class="text-white">Ação Habitual (Imparfait)</strong></td>
+                            <td><span class="highlight-green">Je <strong class="text-white">lisais</strong> souvent.</span> (Eu lia frequentemente.)</td>
+                        </tr>
+                        <tr>
+                            <td><strong class="text-white">Ação Única (Passé Composé)</strong></td>
+                            <td><span class="highlight-green">J'<strong class="text-white">ai lu</strong> ce livre hier.</span> (Eu li este livro ontem.)</td>
+                        </tr>
+                        <tr>
+                            <td><strong class="text-white">Ação em Andamento (Imparfait)</strong></td>
+                            <td><span class="highlight-green">Il <strong class="text-white">parlait</strong> quand j'<strong class="text-white">ai téléphoné</strong>.</span> (Ele estava falando quando eu telefonei.)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+            
+            <section>
+                <h2 class="text-3xl font-bold text-[#E50914] mb-6 text-center">Exercícios de Prática (Múltipla Escolha)</h2>
+                <div class="space-y-6">
+                    <form id="mc-quiz-form">
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">1. Quand j'étais petit, je _______ (jouer) au foot tous les jours.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q1" value="jouait" class="mr-2"> jouait</label>
+                                <label><input type="radio" name="q1" value="ai joué" class="mr-2"> ai joué</label>
+                                <label><input type="radio" name="q1" value="jouais" class="mr-2"> jouais</label>
+                            </div>
+                            <p id="feedback-q1" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">2. Il _______ (faire) très beau ce jour-là.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q2" value="faisait" class="mr-2"> faisait</label>
+                                <label><input type="radio" name="q2" value="a fait" class="mr-2"> a fait</label>
+                                <label><input type="radio" name="q2" value="fait" class="mr-2"> fait</label>
+                            </div>
+                            <p id="feedback-q2" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">3. Nous _______ (regarder) la televisão quand le téléphone a sonné.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q3" value="avons regardé" class="mr-2"> avons regardé</label>
+                                <label><input type="radio" name="q3" value="regardions" class="mr-2"> regardions</label>
+                                <label><input type="radio" name="q3" value="regardiez" class="mr-2"> regardiez</label>
+                            </div>
+                            <p id="feedback-q3" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">4. Tu _______ (dormir) quand je suis arrivé.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q4" value="as dormi" class="mr-2"> as dormi</label>
+                                <label><input type="radio" name="q4" value="dormais" class="mr-2"> dormais</label>
+                                <label><input type="radio" name="q4" value="dormiez" class="mr-2"> dormiez</label>
+                            </div>
+                            <p id="feedback-q4" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">5. Les étudiants _______ (lire) leur livre en classe.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q5" value="ont lu" class="mr-2"> ont lu</label>
+                                <label><input type="radio" name="q5" value="lisaient" class="mr-2"> lisaient</label>
+                                <label><input type="radio" name="q5" value="lisions" class="mr-2"> lisions</label>
+                            </div>
+                            <p id="feedback-q5" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">6. Je _______ (avoir) peur du noir.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q6" value="ai eu" class="mr-2"> ai eu</label>
+                                <label><input type="radio" name="q6" value="avais" class="mr-2"> avais</label>
+                                <label><input type="radio" name="q6" value="eu" class="mr-2"> eu</label>
+                            </div>
+                            <p id="feedback-q6" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">7. Elle _______ (être) très timide dans son enfance.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q7" value="a été" class="mr-2"> a été</label>
+                                <label><input type="radio" name="q7" value="était" class="mr-2"> était</label>
+                                <label><input type="radio" name="q7" value="être" class="mr-2"> être</label>
+                            </div>
+                            <p id="feedback-q7" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">8. Vous _______ (chanter) toujours sous la douche.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q8" value="chantiez" class="mr-2"> chantiez</label>
+                                <label><input type="radio" name="q8" value="avez chanté" class="mr-2"> avez chanté</label>
+                                <label><input type="radio" name="q8" value="chantaient" class="mr-2"> chantaient</label>
+                            </div>
+                            <p id="feedback-q8" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">9. Nous _______ (aimer) nos vacances à la mer.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q9" value="avons aimé" class="mr-2"> avons aimé</label>
+                                <label><input type="radio" name="q9" value="aimiez" class="mr-2"> aimiez</label>
+                                <label><input type="radio" name="q9" value="aimions" class="mr-2"> aimions</label>
+                            </div>
+                            <p id="feedback-q9" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">10. Il _______ (pleuvoir) quand ils sont partis.</p>
+                            <div class="flex flex-col space-y-2">
+                                <label><input type="radio" name="q10" value="a plu" class="mr-2"> a plu</label>
+                                <label><input type="radio" name="q10" value="pleuvait" class="mr-2"> pleuvait</label>
+                                <label><input type="radio" name="q10" value="pleut" class="mr-2"> pleut</label>
+                            </div>
+                            <p id="feedback-q10" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <button type="button" onclick="checkMultipleChoiceAnswers()" class="button mt-6 w-full md:w-auto px-6 py-3 bg-[#E50914] text-white font-bold rounded-lg hover:bg-[#ff535d] transition-colors duration-200">Verificar Respostas</button>
+                        <button type="button" onclick="resetMultipleChoiceQuiz()" class="button mt-2 w-full md:w-auto px-6 py-3 bg-gray-600 text-white font-bold rounded-lg hover:bg-gray-700 transition-colors duration-200">Reiniciar</button>
+                    </form>
+                    <div id="results-mc" class="mt-4 text-center text-lg font-bold"></div>
+                </div>
+            </section>
+            
+            <hr class="my-8 border-gray-700">
+
+            <section>
+                <h2 class="text-3xl font-bold text-[#E50914] mb-6 text-center">Exercícios de Conjugação</h2>
+                <div class="space-y-6">
+                    <form id="conjugation-quiz-form">
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">1. Je _______ (être) fatigué après le travail.</p>
+                            <input type="text" id="conj-q1" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q1" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">2. Nous _______ (aller) au supermarché tous les samedis.</p>
+                            <input type="text" id="conj-q2" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q2" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">3. Elles _______ (vouloir) un café.</p>
+                            <input type="text" id="conj-q3" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q3" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">4. Tu _______ (finir) tes devoirs quand j'ai appelé.</p>
+                            <input type="text" id="conj-q4" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q4" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">5. Vous _______ (boire) du thé chaque matin.</p>
+                            <input type="text" id="conj-q5" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q5" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">6. Il _______ (neiger) quand nous sommes partis.</p>
+                            <input type="text" id="conj-q6" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q6" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">7. Je _______ (avoir) un chat.</p>
+                            <input type="text" id="conj-q7" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q7" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">8. Ils _______ (sortir) ensemble souvent.</p>
+                            <input type="text" id="conj-q8" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q8" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">9. Nous _______ (se promener) dans le parc quand nous avons vu l'oiseau.</p>
+                            <input type="text" id="conj-q9" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q9" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-gray-800">
+                            <p class="mb-2">10. Il _______ (pleuvoir) fort hier.</p>
+                            <input type="text" id="conj-q10" class="input-text" placeholder="Conjugue o verbo aqui...">
+                            <p id="feedback-conj-q10" class="mt-2 text-sm font-semibold"></p>
+                        </div>
+                        <button type="button" onclick="checkConjugationAnswers()" class="button mt-6 w-full md:w-auto px-6 py-3 bg-[#E50914] text-white font-bold rounded-lg hover:bg-[#ff535d] transition-colors duration-200">Verificar Respostas</button>
+                        <button type="button" onclick="resetConjugationQuiz()" class="button mt-2 w-full md:w-auto px-6 py-3 bg-gray-600 text-white font-bold rounded-lg hover:bg-gray-700 transition-colors duration-200">Reiniciar</button>
+                    </form>
+                    <div id="results-conj" class="mt-4 text-center text-lg font-bold"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        const mcCorrectAnswers = {
+            q1: "jouais",
+            q2: "faisait",
+            q3: "regardions",
+            q4: "dormais",
+            q5: "lisaient",
+            q6: "avais",
+            q7: "était",
+            q8: "chantiez",
+            q9: "aimions",
+            q10: "pleuvait"
+        };
+        
+        const conjCorrectAnswers = {
+            "conj-q1": "étais",
+            "conj-q2": "allions",
+            "conj-q3": "voulaient",
+            "conj-q4": "finissais",
+            "conj-q5": "buviez",
+            "conj-q6": "neigeait",
+            "conj-q7": "avais",
+            "conj-q8": "sortaient",
+            "conj-q9": "nous promenions",
+            "conj-q10": "pleuvait"
+        };
+
+        function checkMultipleChoiceAnswers() {
+            const form = document.getElementById('mc-quiz-form');
+            let score = 0;
+            let totalQuestions = 0;
+            
+            for (let i = 1; i <= 10; i++) {
+                const qName = `q${i}`;
+                const feedbackId = `feedback-q${i}`;
+                const selectedOption = form.elements[qName]?.value;
+                const feedbackElement = document.getElementById(feedbackId);
+                totalQuestions++;
+
+                if (selectedOption === mcCorrectAnswers[qName]) {
+                    feedbackElement.textContent = "Correto! 🎉";
+                    feedbackElement.className = "mt-2 text-sm font-semibold text-green-400";
+                    score++;
+                } else {
+                    feedbackElement.textContent = `Incorreto. A resposta correta é: "${mcCorrectAnswers[qName]}"`;
+                    feedbackElement.className = "mt-2 text-sm font-semibold text-red-400";
+                }
+            }
+
+            const resultsElement = document.getElementById('results-mc');
+            resultsElement.textContent = `Você acertou ${score} de ${totalQuestions} perguntas.`;
+            resultsElement.className = `mt-4 text-lg font-bold ${score >= 7 ? 'text-green-400' : 'text-red-400'}`;
+        }
+
+        function resetMultipleChoiceQuiz() {
+            const form = document.getElementById('mc-quiz-form');
+            form.reset();
+            const feedbackElements = document.querySelectorAll('#mc-quiz-form [id^="feedback-q"]');
+            feedbackElements.forEach(el => {
+                el.textContent = "";
+                el.className = "mt-2 text-sm font-semibold";
+            });
+            document.getElementById('results-mc').textContent = "";
+        }
+
+        function checkConjugationAnswers() {
+            let score = 0;
+            let totalQuestions = 0;
+
+            for (const key in conjCorrectAnswers) {
+                const inputElement = document.getElementById(key);
+                const feedbackElement = document.getElementById(`feedback-${key}`);
+                const userAnswer = inputElement.value.trim().toLowerCase();
+                const correctAnswer = conjCorrectAnswers[key].trim().toLowerCase();
+                
+                totalQuestions++;
+
+                if (userAnswer === correctAnswer) {
+                    feedbackElement.textContent = "Correto! 🎉";
+                    feedbackElement.className = "mt-2 text-sm font-semibold text-green-400";
+                    score++;
+                } else {
+                    feedbackElement.textContent = `Incorreto. A resposta correta é: "${conjCorrectAnswers[key]}"`;
+                    feedbackElement.className = "mt-2 text-sm font-semibold text-red-400";
+                }
+            }
+
+            const resultsElement = document.getElementById('results-conj');
+            resultsElement.textContent = `Você acertou ${score} de ${totalQuestions} perguntas.`;
+            resultsElement.className = `mt-4 text-lg font-bold ${score >= 7 ? 'text-green-400' : 'text-red-400'}`;
+        }
+        
+        function resetConjugationQuiz() {
+            const form = document.getElementById('conjugation-quiz-form');
+            form.reset();
+            const feedbackElements = document.querySelectorAll('#conjugation-quiz-form [id^="feedback-conj-q"]');
+            feedbackElements.forEach(el => {
+                el.textContent = "";
+                el.className = "mt-2 text-sm font-semibold";
+            });
+            document.getElementById('results-conj').textContent = "";
+        }
+    </script>
+</body>
+</html>
